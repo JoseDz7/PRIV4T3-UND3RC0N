@@ -1,0 +1,86 @@
+#!bin/bash
+#
+# Creado por: Sharkcode y 4vichuy
+#
+# HERRAMIENTAS
+clear
+
+# ===============================================
+#               COLORES RESALTADOS
+# ===============================================
+negro="\e[1;30m"
+azul="\e[1;34m"
+verde="\e[1;32m"
+cian="\e[1;36m"
+rojo="\e[1;31m"
+purpura="\e[1;35m"
+amarillo="\e[1;33m"
+blanco="\e[1;37m"
+# ===============================================
+#                 COLORES BAJOS
+# ===============================================
+black="\e[0;30m"
+blue="\e[0;34m"
+green="\e[0;32m"
+cyan="\e[0;36m"
+red="\e[0;31m"
+purple="\e[0;35m"
+yellow="\e[0;33m"
+white="\e[0;37m"
+
+# ===============================================
+#          BANNER DE TEXTO HERRAMIENTAS
+# ===============================================
+
+echo -e "${negro}
+██╗  ██╗██╗   ██╗██╗ ██████╗${verde} ██╗  ██╗██╗   ██╗██╗   █╗${negro}
+██║  ██║██║   ██║██║██╔════╝${verde} ██║  ██║██║   ██║╚██╗ ██╝${negro}
+███████║██║   ██║██║██║     ${verde} ███████║██║   ██║ ╚████╔╝${negro}
+╚════██║╚██╗ ██╔╝██║██║     ${verde} ██╔══██║██║   ██║  ╚██╔╝${negro}
+     ██║ ╚████╔╝ ██║╚██████╗${verde} ██║  ██║╚██████╔╝   ██║${negro}
+     ╚═╝  ╚═══╝  ╚═╝ ╚═════╝${verde} ╚═╝  ╚═╝ ╚═════╝    ╚═╝"${blanco}
+
+# ===============================================
+#           INSTALANDO HERRAMIENTAS  :D
+# ===============================================
+
+echo -e  "${cyan}
+┌══════════════════════════════┐
+█ ${blanco}Instalando Darkmap2 tqm...   ${cyan}█
+└══════════════════════════════┘
+"
+pip install python-nmap > /dev/null 2>&1
+git clone https://github.com/vaxnoo2/DarkMap > /dev/null 2>&1
+chmod 775 DarkMap
+echo ""
+echo -e "${azul}Darkmap Instalado correctamente (nmap)
+"
+echo -e "${cyan}
+┌══════════════════════════════┐
+█ ${blanco}Instalando php-reverse shell ${cyan}█
+└══════════════════════════════┘"
+git clone https://github.com/vaxnoo2/php-reverse-shell > /dev/null 2>&1
+echo ""
+echo -e "${azul}php reverse shell instado corectamente
+"
+echo -e "${cyan}
+┌══════════════════════════════┐
+█ ${blanco}Instalando Sherlock doxing.. ${cyan}█
+└══════════════════════════════┘"
+git clone https://github.com/sherlock-project/sherlock > /dev/null 2>&1
+echo ""
+echo -e "${azul} Sherlock instado correctamente
+"
+echo -e "${verde} Gracias por ocupar mi script es algo basico pero lo hice con mucho cariño
+"
+echo -e "${verde} Igual gracias a mis hermanos 4vichuy y dark por el cariño que me an dado
+"
+sleep 5
+echo ""
+echo -e "${verde} CREADO POR SHARKCODE,4VICHUY Y DARK
+"
+
+# ===========================================================
+#     Creado por sharkcode,4vivhuy y dsrk - BLACk HACKS ©2021
+# ===========================================================
+
