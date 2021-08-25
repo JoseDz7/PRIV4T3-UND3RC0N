@@ -11,3 +11,10 @@ chmod +x Herramientas v1
 
 bash Herramientas v1
 
+Favor de mover las carpetas creadas a tu directorio principal
+
+Cómo lo hacemos? - mv Nombre de la carpeta Ruta
+
+Cómo obtenemos la ruta? En tu directorio principal ocupa el comando pwd gracias:)
+
+
