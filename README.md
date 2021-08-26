@@ -17,4 +17,6 @@ Cómo lo hacemos? - mv Nombre de la carpeta Ruta
 
 Cómo obtenemos la ruta? En tu directorio principal ocupa el comando pwd gracias:)
 
-
+github de CJ7 :
+https://github.com/Juliocj7/Juliocj7
+Tiene buenas herramientas lo recomiendo 👍
